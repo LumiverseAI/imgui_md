@@ -31,7 +31,7 @@
 #include <string>
 #include <vector>
 
-struct imgui_md
+struct IMGUI_API imgui_md
 {
 	// GitHub-style admonitions: > [!NOTE] / [!TIP] / [!IMPORTANT] / [!WARNING] / [!CAUTION]
 	enum class AdmonitionKind { None, Note, Tip, Important, Warning, Caution };
