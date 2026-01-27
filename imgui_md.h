@@ -31,7 +31,7 @@
 #include <string>
 #include <vector>
 
-struct imgui_md
+struct IMGUI_API imgui_md
 {
 	imgui_md();
 	virtual ~imgui_md() {};
